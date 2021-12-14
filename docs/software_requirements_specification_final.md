@@ -98,3 +98,30 @@ Non-functional requirement section provides a user expectation and applies to wh
 | FR4 | No user shall have access to delete any post unless they have created that post.|
 | FR5 | The source coding shall follow secure coding practices.|
 ### Needs to be added
+
+# Change Management Plan:
+
+This section will describe a change management plan for ShareRide application. It will focus on training users, platform availability, performance and issue handling process.
+
+# Traceability links
+
+## Use Case Diagram Traceability
+| Artifact ID | Artifact Name | Requirement ID |
+| :-------------: | :----------: | :----------: |
+| UseCase1 | Move Player | FR5 |
+| … | … | … |
+## Class Diagram Traceability
+| Artifact Name | Requirement ID |
+| :-------------: |:----------: |
+| classPlayer | NFR3, FR5 |
+| … | … | … |
+
+
+## Activity Diagram Traceability
+| Artifact ID | Artifact Name | Requirement ID |
+| :-------------: | :----------: | :----------: |
+| <filename> | Handle Player Input | FR1-5, NFR2 |
+| … | … | … |
+
+# Software Artifacts
+* [I am a link](to_some_file.pdf)
