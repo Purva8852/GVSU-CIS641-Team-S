@@ -54,3 +54,28 @@ export default function App() {
     </NavigationContainer>
   );
 }
+
+/* WORK ON BELOW CODE*/
+
+/* 
+import React from 'react';
+
+import {NavigationContainer} from '@react-navigation/native';
+//import {createNativeStackNavigator} from '@react-navigation/native-stack';
+
+//import AuthStack from './src/navigation/AuthStack';
+import AppStack from './navigation/AppStack';
+import AuthStack from './navigation/AuthStack';
+
+function App() {
+  return (
+    <NavigationContainer>
+       <AppStack/>
+       {/*<AuthStack />}
+       </NavigationContainer>
+       );
+     }
+     
+     export default App;
+*/
+
