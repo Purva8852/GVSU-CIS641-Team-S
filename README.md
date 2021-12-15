@@ -19,6 +19,6 @@ Being away from home, in the land of strangers, a young college student can beco
 1. Scan the QR code mentioned on BlackBoard of GVSU.
 OR
 [Click here to install APK file](https://github.com/Purva8852/GVSU-CIS641-Team-S/blob/master/artifacts/ShareRideScreen-c45d63bba48746f894346517f4fc27d3-signed.apk)
-***Links for APK download shall be included****
+
 
 2. If for reference developer wants to change anything, kindly [click here](https://github.com/Purva8852/GVSU-CIS641-Team-S/tree/master/src)
