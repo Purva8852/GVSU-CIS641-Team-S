@@ -78,6 +78,15 @@ Non-functional requirement section provides a user expectation and applies to wh
 | FR4 | Temporary password sent to user shall be valid for 4 hours for successful login.|
 | FR5 | After successful login, users email address shall be stored in AsyncStorage.|
 
+### Usability:
+| ID | Requirement |
+| -------------| ---------- |
+| FR1 | Each application UI screen shall be user friendly and in easily understanble format or readable formate.|
+| FR2 | The user shall experience an aesthetic and minimal design.|
+| FR3 | The application shall consist of standard visual experience for all users.|
+| FR4 | The ride booking shall follow first in first out method.|
+| FR5 | Each application UI screen shall be user friendly and in easily understanble format or readable formate.|
+
 ### Operational Requirement:
 | ID | Requirement |
 | -------------| ---------- |
@@ -97,19 +106,45 @@ Non-functional requirement section provides a user expectation and applies to wh
 | FR3 | User data shall not be shared with any other party.|
 | FR4 | No user shall have access to delete any post unless they have created that post.|
 | FR5 | The source coding shall follow secure coding practices.|
-### Needs to be added
 
 # Change Management Plan:
 
 This section will describe a change management plan for ShareRide application. It will focus on training users, platform availability, performance and issue handling process.
 
-# Traceability links
 
+## Why Shareride App?
+ShareRide is a cross-platform mobile application for Grand Valley State
+University, where all students and faculty members can join and share rides. Any
+member of our application can ask for a ride by simply posting a plan, and whichever
+member who has a vehicle can pick up the member who asked for a ride. Alternatively,
+any member who already owns a vehicle can post his/her plan to visit somewhere, and
+whoever fits the schedule can join the trip in first-come-first-serve basis.
+## Training Strategy:
+We will train people/students by proposing this system to the students during
+Students orientation which happens at the start of every new semester and help them
+login to the platform using their GVSU email. Like Uber, the first ride will have some
+offers. The information about the application will be promoted in the form of posters all
+over the campus where the QR code of the app will be provided in the posters.
+## Integration within GVSU ecosystem:
+The ShareRide application will be integrated on myBanner website, a GVSU
+official portal. Since the application is designed for GVSU’s students, it would be
+available to them on their official website. Students can get to know about the application
+and download the application with the QR code in myBanner.
+## Performance Issue and Monitoring:
+We will continuously monitor the application’s performance and fix bugs. The application follows CI/CD pipeline, deployed on AWS CodePipeline which tests the code
+before deploying.
+## Availability of the Mobile Application:
+The application will be available in both commanly used operating system - Android and iOS.
+
+# Traceability links
+This section represents relationship between requirements and other project artifacts such as class diagram, Use case diagram and activity diagram.
 ## Use Case Diagram Traceability
 | Artifact ID | Artifact Name | Requirement ID |
 | :-------------: | :----------: | :----------: |
-| UseCase1 | Move Player | FR5 |
-| … | … | … |
+|1| Sign In/Login | FR1, FR3, FR6|
+|1| Sign Up/Registration| FR1, FR2, FR3, FR4, FR5|
+|1| Edit Profile| FR1, FR2, FR3, FR5|
+|1| Post/Comment| FR2, FR3, FR4, FR5|
 ## Class Diagram Traceability
 | Artifact Name | Requirement ID |
 | :-------------: |:----------: |
@@ -123,5 +158,26 @@ This section will describe a change management plan for ShareRide application. I
 | <filename> | Handle Player Input | FR1-5, NFR2 |
 | … | … | … |
 
+
+
+
 # Software Artifacts
-* [I am a link](to_some_file.pdf)
+ [1 - Sign In/Login UseCase](https://github.com/Purva8852/GVSU-CIS641-Team-S/blob/master/artifacts/functional-models/Use_Case_SignIn.pdf)
+
+ [2 -  Sign Up/Registration UseCase](https://github.com/Purva8852/GVSU-CIS641-Team-S/blob/master/artifacts/functional-models/Use_Case_Email_Verification_Registration.pdf)
+
+[3 - Edit Profile UseCase](https://github.com/Purva8852/GVSU-CIS641-Team-S/blob/master/artifacts/functional-models/Use_Case_Edit_Profile.pdf)
+
+[4 - Post/Comment UseCase](https://github.com/Purva8852/GVSU-CIS641-Team-S/blob/master/artifacts/functional-models/Use_Case_Post_Comment_Details.pdf)
+
+ [5 -  Login Activity](https://github.com/Purva8852/GVSU-CIS641-Team-S/blob/master/artifacts/functional-models/Activity_Diagram_Login.pdf)
+
+ [6 -  Edit Profile Activity](https://github.com/Purva8852/GVSU-CIS641-Team-S/blob/master/artifacts/functional-models/Activity_Diagram_Edit_Profile.pdf)
+
+[7 -  SignIn Activity](https://github.com/Purva8852/GVSU-CIS641-Team-S/blob/master/artifacts/functional-models/Activity_Diagram_Sign_In.pdf)
+
+[8 - Behavioral Diagram](https://github.com/Purva8852/GVSU-CIS641-Team-S/blob/master/artifacts/functional-models/Behavioral_Diagram_Sequence_StateMachine.pdf)
+
+[9 - Combined Class Diagram](https://github.com/Purva8852/GVSU-CIS641-Team-S/blob/master/artifacts/functional-models/ClassDiagram.pdf)
+
+[10 - Combined Use Case and Activity Diagram](https://github.com/Purva8852/GVSU-CIS641-Team-S/blob/master/artifacts/functional-models/UseCasesAndADs.pdf)
