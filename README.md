@@ -7,10 +7,10 @@ Being away from home, in the land of strangers, a young college student can beco
 * [Hyeong Gyu Jang](https://github.com/hyeonggyujang/CIS641-HW2-Jang) - Back-end developer
 * [Srikar Pratap](https://github.com/SrikarPratap/CIS641-HW2-PRATAP) - AWS DevOps Engineer
 * [Sudarshan Venkatesh](https://github.com/sudsvenk/CIS641-HW2-VENKATESH) - Back-end developer
-* [Purva Tanmay Shah](https://github.com/Purva8852/CIS641-HW2-SHAH#cis641-hw2-shah) - Front-end developer
+* [Purva Tanmay Shah](https://github.com/Purva8852/CIS641-HW2-SHAH#cis641-hw2-shah) - Front-end developer / Document Designer
 
 ## Documents
 1. [Meetings](https://github.com/Purva8852/GVSU-CIS641-Team-S/tree/master/meetings)
 2. [Project Proposal](https://github.com/Purva8852/GVSU-CIS641-Team-S/blob/master/docs/project-proposal.md)
 3. [Project Artifacts](https://github.com/Purva8852/GVSU-CIS641-Team-S/tree/master/artifacts)
-4. [Software Requirement Specifications](https://github.com/Purva8852/GVSU-CIS641-Team-S/blob/master/docs/software_requirements_specification.md)
+4. [Software Requirement Specifications](https://github.com/Purva8852/GVSU-CIS641-Team-S/blob/master/docs/software_requirements_specification_final.md)
