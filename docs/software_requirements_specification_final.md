@@ -37,6 +37,7 @@ Non-functional requirement section provides a user expectation and applies to wh
 | FR15 | If user does not want to modify any details, this page shall include navigator to post screen/main screen.|
 | FR16 | User shall not have access to modify email address and name field.|
 
+
 ### Post/Comment
 | ID | Requirement |
 | -------------|---------- |
@@ -56,56 +57,56 @@ Non-functional requirement section provides a user expectation and applies to wh
 | FR26 | After logout user shall have option to login again.|
 | FR27 | MyProfile screen shall include user details like Name, phone, address, vehicle details.|
 | FR28 | Once user has logged in, the application shall store his/her information for using it next time.|
-| FR29 | Logout screen shall have login screen button.|
+
     
 ## Non-Functional Requirements
 ### Performance:
 | ID | Requirement |
 | -------------| ---------- |
-| FR1 | Application shall handle maximum number of 30K student at a time.|
-| FR2 | Performace of the application shall be monitored using AWS cloudwatch.|
-| FR3 | After clicking onto reset password button temporary password shall be sent with a latency of no greater than 1 hour.|
-| FR4 | Each login and registration request shall be processed in maximum of 10 seconds.|
-| FR5 | App shall take no longer than 3 seconds to load when user tries to open it.|
-| FR6 | All the drawer navigation shall load their respective screens not greater than 3 seconds.|
+| NFR1 | Application shall handle maximum number of 30K student at a time.|
+| NFR2 | Performace of the application shall be monitored using AWS cloudwatch.|
+| NFR3 | After clicking onto reset password button temporary password shall be sent with a latency of no greater than 1 hour.|
+| NFR4 | Each login and registration request shall be processed in maximum of 10 seconds.|
+| NFR5 | App shall take no longer than 3 seconds to load when user tries to open it.|
+| NFR6 | All the drawer navigation shall load their respective screens not greater than 3 seconds.|
 
 ### Availability:
 | ID | Requirement |
 | -------------| ---------- |
-| FR7 | Application shall be up and running all the time 24*7 all the days.|
-| FR8 | Recent or only upcoming post shall be available for avoid storing large data on database.|
-| FR9 | Customer support shall be provided if user faces any issue accessing the application.|
-| FR10 | Temporary password sent to user shall be valid for 4 hours for successful login.|
-| FR11 | After successful login, users email address shall be stored in AsyncStorage.|
+| NFR7 | Application shall be up and running all the time 24*7 all the days.|
+| NFR8 | Recent or only upcoming post shall be available for avoid storing large data on database.|
+| NFR9 | Customer support shall be provided if user faces any issue accessing the application.|
+| NFR10 | Temporary password sent to user shall be valid for 4 hours for successful login.|
+| NFR11 | After successful login, users email address shall be stored in AsyncStorage.|
 
 ### Usability:
 | ID | Requirement |
 | -------------| ---------- |
-| FR12 | Each application UI screen shall be user friendly and in easily understanble format or readable formate.|
-| FR13 | The user shall experience an aesthetic and minimal design.|
-| FR14 | The application shall consist of standard visual experience for all users.|
-| FR15 | The ride booking shall follow first in first out method.|
-| FR16 | Each application UI screen shall be user friendly and in easily understanble format or readable formate.|
+| NFR12 | Each application UI screen shall be user friendly and in easily understanble format or readable formate.|
+| NFR13 | The user shall experience an aesthetic and minimal design.|
+| NFR14 | The application shall consist of standard visual experience for all users.|
+| NFR15 | The ride booking shall follow first in first out method.|
+| NFR16 | User from any age group shall access app easily.|
 
 ### Operational Requirement:
 | ID | Requirement |
 | -------------| ---------- |
-| FR17 | Application shall be installed or run on both operating system - Android and iOS.|
-| FR18 |The system front end UI shall be created using react-native.|
-| FR19 | System shall be build using expo CLI.|
-| FR20 | The backend logic shall be implemented using python flask framework.|
-| FR21 | Application shall run on device regardless of OS update or on changing mobile with new Operating system.|
-| FR22 | Application shall store all of its user and post/comment data in NoSQL format in DynamicDB of AWS.|
-| FR23 | Google maps shall be used for entering accurate location while posting a ride detail.|
-| FR24 | CI/CD pipeline shall be used to make application be available by testing and deploying latest updates.|
+| NFR17 | Application shall be installed or run on both operating system - Android and iOS.|
+| NFR18 |The system front end UI shall be created using react-native.|
+| NFR19 | System shall be build using expo CLI.|
+| NFR20 | The backend logic shall be implemented using python flask framework.|
+| NFR21 | Application shall run on device regardless of OS update or on changing mobile with new Operating system.|
+| NFR22 | Application shall store all of its user and post/comment data in NoSQL format in DynamicDB of AWS.|
+| NFR23 | Google maps shall be used for entering accurate location while posting a ride detail.|
+| NFR24 | CI/CD pipeline shall be used to make application be available by testing and deploying latest updates.|
 ### Security:
 | ID | Requirement |
 | -------------| ---------- |
-| FR25 | Customer personal data shall be stored in database in encrypted format.
-| FR26 | Unsuccessful login of user shall be recorded and audited.
-| FR27 | User data shall not be shared with any other party.|
-| FR28 | No user shall have access to delete any post unless they have created that post.|
-| FR29 | The source coding shall follow secure coding practices.|
+| NFR25 | Customer personal data shall be stored in database in encrypted format.
+| NFR26 | Unsuccessful login of user shall be recorded and audited.
+| NFR27 | User data shall not be shared with any other party.|
+| NFR28 | No user shall have access to delete any post unless they have created that post.|
+| NFR29 | The source coding shall follow secure coding practices.|
 
 # Change Management Plan:
 
@@ -141,27 +142,26 @@ This section represents relationship between requirements and other project arti
 ## Use Case Diagram Traceability
 | Artifact ID | Artifact Name | Requirement ID |
 | :-------------: | :----------: | :----------: |
-|1| [Sign In/Login]((https://github.com/Purva8852/GVSU-CIS641-Team-S/blob/master/artifacts/functional-models/Use_Case_SignIn.pdf)) | FR1, FR3, FR6|
-|2| [Sign Up/Registration](https://github.com/Purva8852/GVSU-CIS641-Team-S/blob/master/artifacts/functional-models/Use_Case_Email_Verification_Registration.pdf) | FR1, FR2, FR3, FR4, FR5|
-|3|[Edit Profile](https://github.com/Purva8852/GVSU-CIS641-Team-S/blob/master/artifacts/functional-models/Use_Case_Edit_Profile.pdf)| FR1, FR2, FR3, FR5|
-|4| [Post/Comment]((https://github.com/Purva8852/GVSU-CIS641-Team-S/blob/master/artifacts/functional-models/Use_Case_Post_Comment_Details.pdf))| FR2, FR3, FR4, FR5|
+|1| [Sign In/Login](https://github.com/Purva8852/GVSU-CIS641-Team-S/blob/master/artifacts/functional-models/Use_Case_SignIn.pdf) | FR1, FR3, FR6, FR26|
+|2| [Sign Up/Registration](https://github.com/Purva8852/GVSU-CIS641-Team-S/blob/master/artifacts/functional-models/Use_Case_Email_Verification_Registration.pdf) | FR7-11|
+|3|[Edit Profile](https://github.com/Purva8852/GVSU-CIS641-Team-S/blob/master/artifacts/functional-models/Use_Case_Edit_Profile.pdf)| FR12-14, FR16|
+|4| [Post/Comment](https://github.com/Purva8852/GVSU-CIS641-Team-S/blob/master/artifacts/functional-models/Use_Case_Post_Comment_Details.pdf)| FR18-21, FR25|
 ## Class Diagram Traceability
 | Artifact Name | Requirement ID |
 | :-------------: |:----------: |
-| User | NFR3, FR5 |
-| Vehicle | NFR3, FR5 |
-| Ride | NFR3, FR5 |
-| Comment | NFR3, FR5 |
-| Group| |
+| User | FR1, FR2, FR7, FR8, FR12-FR14 |
+| Vehicle | FR8 |
+| RideDetails | FR18, FR20,21 |
+| Post/Comment | FR17-23 |
+
 
 
 ## Activity Diagram Traceability
 | Artifact ID | Artifact Name | Requirement ID |
 | :-------------: | :----------: | :----------: |
-| <filename> | Handle Player Input | FR1-5, NFR2 |
-| … | … | … |
-
-
+| [5](https://github.com/Purva8852/GVSU-CIS641-Team-S/blob/master/artifacts/functional-models/Activity_Diagram_Login.pdf) | Login | FR1-5, NFR2, NFR26 |
+|[6](https://github.com/Purva8852/GVSU-CIS641-Team-S/blob/master/artifacts/functional-models/Activity_Diagram_Edit_Profile.pdf)|Edit Profile | FR12-16, NFR25, |
+|[7](https://github.com/Purva8852/GVSU-CIS641-Team-S/blob/master/artifacts/functional-models/Activity_Diagram_Sign_In.pdf)|  SignIn | FR2-5, FR8-11, NFR1, NFR3,NFR4, NFR7, NFR10, NFR12, NFR17, NFR16 |
 
 
 # Software Artifacts
