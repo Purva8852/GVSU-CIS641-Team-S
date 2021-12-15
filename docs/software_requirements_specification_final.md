@@ -1,10 +1,10 @@
 
 # Overview:
-The software requirement specification document outlines the requirements of Team-S project, a ride-sharing application among university students, faculty members and GVSU staff. This document explains about the (ShareRide) App features, traceability, interfaces and designs logics in detail.
+The software requirement specification document outlines the requirements of Team-S project, a ride-sharing application among university students, faculty members and GVSU staff. This document explains about the (ShareRide) App features, traceability, interface and design logics in detail.
 
 
 # Software Requirements
-This section of the document focuses on what the system shall do and what all services can be available to users of ShareRide application. 
+This section of the document focuses on how the system shall response and what all services are available to the ShareRide users. 
 Functional requirements section covers details of user requirements.
 Non-functional requirement section provides a user expectation and applies to whole system.
 
@@ -17,23 +17,23 @@ Non-functional requirement section provides a user expectation and applies to wh
 | FR3 | Forgot password functionality shall be added inside login page. |
 | FR4 | User shall receive temporary password to login into the application using forgot password functionality. |
 | FR5 | Help button shall answer user’s basic questions. |
-| FR6 |Upon completion of application loading, the welcome screen shall display login and Sign up buttons.|
+| FR6 |Upon completion of application loading, the welcome screen shall display login and Sign up option.|
 
 ### Sign Up/User Registration:
 | ID | Requirement |
 | -------------| ---------- |
-| FR7 | Only GVSU staff, student or faculty member shall allow for new registration.|
-| FR8 | This shall include user personal details: Name, Email, Address and mandatory and Phone, Vehicle details are optional.|
-| FR9 | Register me button shall be included. When user clicks on it, a verification link shall be sent to user.|
+| FR7 | Only GVSU staff, students or faculty members shall be allowed for new registration.|
+| FR8 | This shall include user's mandatory personal details - Name, Email and Address. And optional details - Phone and vehicle details.
+| FR9 | 'Register Me' option shall be included. When user selects this option, a verification link shall be sent to the user.|
 | FR10 | Sign up screen shall include login screen navigation.|
 | FR11 | After successfully registering, user shall be able to login immediately.|
 
 ### Edit Profile
 | ID | Requirement |
 | -------------| ---------- |
-| FR12 | User shall have access to edit profile where he can modify/change address, vehicle details, password and phone number.|
-| FR13 | On clicking onto submit button, the new details shall get updated in database.|
-| FR14 | If password is changed, user shall come out of application and login again with new created password.|
+| FR12 | User shall have access to edit profile where user can modify/change address, vehicle details, password and phone number.|
+| FR13 | On selecting submit button option, the new/modified details shall get updated in database.|
+| FR14 | If password is changed, user shall be redirected to the login page.|
 | FR15 | If user does not want to modify any details, this page shall include navigator to post screen/main screen.|
 | FR16 | User shall not have access to modify email address and name field.|
 
@@ -43,10 +43,10 @@ Non-functional requirement section provides a user expectation and applies to wh
 | -------------|---------- |
 | FR17 | Post screen shall be main screen of application.|
 | FR18 | User shall have access to create new post from this screen.|
-| FR19 | Logged in user shall have access to see all the previous post and comment on any post.|
-| FR20 | If ride time for any post is less than current time, the post shall get delete automatically.|
-| FR21 | User shall have access to delete only his post.|
-| FR22 | Admin shall have access to delete all post if found irrelevant.|
+| FR19 | Logged in user shall have access to see all the previous posts and comments on any post.|
+| FR20 | If ride time for any post is due the current time, the post shall automatically get deleted.|
+| FR21 | User shall have access to delete only his/her post.|
+| FR22 | Admin shall have access to delete all irrelevant posts.|
 | FR23 |  While creating post, user shall have access to choose from rider or passenger, enter ride to and from location, and time of ride with available seats and phone being optional.|
 
 ### Operational Requirements:
