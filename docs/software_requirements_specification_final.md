@@ -55,7 +55,7 @@ Non-functional requirement section provides a user expectation and applies to wh
 | FR24 | After successful login or registering, user shall have access to post screen (main board screen)|
 | FR25 | Any user shall be allowed to comment on any post.|
 | FR26 | After logout user shall have option to login again.|
-| FR27 | MyProfile screen shall include user details like Name, phone, address, vehicle details.|
+| FR27 | MyProfile screen shall include user details like name, phone, address, vehicle details.|
 | FR28 | Once user has logged in, the application shall store his/her information for using it next time.|
 
     
@@ -63,18 +63,18 @@ Non-functional requirement section provides a user expectation and applies to wh
 ### Performance:
 | ID | Requirement |
 | -------------| ---------- |
-| NFR1 | Application shall handle maximum number of 30K student at a time.|
+| NFR1 | Application shall handle maximum number of 30K users at a time.|
 | NFR2 | Performace of the application shall be monitored using AWS cloudwatch.|
 | NFR3 | After clicking onto reset password button temporary password shall be sent with a latency of no greater than 1 hour.|
 | NFR4 | Each login and registration request shall be processed in maximum of 10 seconds.|
-| NFR5 | App shall take no longer than 3 seconds to load when user tries to open it.|
-| NFR6 | All the drawer navigation shall load their respective screens not greater than 3 seconds.|
+| NFR5 | Application shall take no longer than 3 seconds to load when user tries to open it.|
+| NFR6 | All the drawer navigation shall load their respective screens in less 3 seconds.|
 
 ### Availability:
 | ID | Requirement |
 | -------------| ---------- |
-| NFR7 | Application shall be up and running all the time 24*7 all the days.|
-| NFR8 | Recent or only upcoming post shall be available for avoid storing large data on database.|
+| NFR7 | Application shall be up and running 24*7 all the days.|
+| NFR8 | Recent or only upcoming posts shall be available for avoiding storage of large data on database.|
 | NFR9 | Customer support shall be provided if user faces any issue accessing the application.|
 | NFR10 | Temporary password sent to user shall be valid for 4 hours for successful login.|
 | NFR11 | After successful login, users email address shall be stored in AsyncStorage.|
@@ -91,18 +91,18 @@ Non-functional requirement section provides a user expectation and applies to wh
 ### Operational Requirement:
 | ID | Requirement |
 | -------------| ---------- |
-| NFR17 | Application shall be installed or run on both operating system - Android and iOS.|
+| NFR17 | Application shall be installed or run on both operating systems - Android and iOS.|
 | NFR18 |The system front end UI shall be created using react-native.|
 | NFR19 | System shall be build using expo CLI.|
 | NFR20 | The backend logic shall be implemented using python flask framework.|
-| NFR21 | Application shall run on device regardless of OS update or on changing mobile with new Operating system.|
-| NFR22 | Application shall store all of its user and post/comment data in NoSQL format in DynamicDB of AWS.|
+| NFR21 | Application shall run on device regardless of OS update or on switching mobile with new operating system.|
+| NFR22 | Application shall store all of its users and posts/comments data in NoSQL format in DynamicDB of AWS.|
 | NFR23 | Google maps shall be used for entering accurate location while posting a ride detail.|
-| NFR24 | CI/CD pipeline shall be used to make application be available by testing and deploying latest updates.|
+| NFR24 | CI/CD pipeline shall be used to make application  available by testing and deploying latest updates.|
 ### Security:
 | ID | Requirement |
 | -------------| ---------- |
-| NFR25 | Customer personal data shall be stored in database in encrypted format.
+| NFR25 | Customer's personal data shall be stored in database in encrypted format.
 | NFR26 | Unsuccessful login of user shall be recorded and audited.
 | NFR27 | User data shall not be shared with any other party.|
 | NFR28 | No user shall have access to delete any post unless they have created that post.|
