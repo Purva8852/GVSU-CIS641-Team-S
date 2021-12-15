@@ -14,3 +14,11 @@ Being away from home, in the land of strangers, a young college student can beco
 2. [Project Proposal](https://github.com/Purva8852/GVSU-CIS641-Team-S/blob/master/docs/project-proposal.md)
 3. [Project Artifacts](https://github.com/Purva8852/GVSU-CIS641-Team-S/tree/master/artifacts)
 4. [Software Requirement Specifications](https://github.com/Purva8852/GVSU-CIS641-Team-S/blob/master/docs/software_requirements_specification_final.md)
+
+## Installation Guide:
+1. Scan the QR code mentioned on BlackBoard of GVSU.
+OR
+Click here to install APK file
+***Links for APK download shall be included****
+
+2. If for reference developer wants to change anything, kindly [click here](https://github.com/Purva8852/GVSU-CIS641-Team-S/tree/master/src)
