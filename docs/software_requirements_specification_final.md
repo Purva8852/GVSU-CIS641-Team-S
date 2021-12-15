@@ -149,10 +149,10 @@ This section represents relationship between requirements and other project arti
 ## Class Diagram Traceability
 | Artifact Name | Requirement ID |
 | :-------------: |:----------: |
-| User | FR1, FR2, FR7, FR8, FR12-FR14 |
-| Vehicle | FR8 |
-| RideDetails | FR18, FR20,21 |
-| Post/Comment | FR17-23 |
+| [User](https://github.com/Purva8852/GVSU-CIS641-Team-S/blob/master/artifacts/functional-models/ClassDiagram.pdf) | FR1, FR2, FR7, FR8, FR12-FR14 |
+| [Vehicle](https://github.com/Purva8852/GVSU-CIS641-Team-S/blob/master/artifacts/functional-models/ClassDiagram.pdf) | FR8 |
+| [RideDetails](https://github.com/Purva8852/GVSU-CIS641-Team-S/blob/master/artifacts/functional-models/ClassDiagram.pdf) | FR18, FR20,21 |
+| [Post/Comment](https://github.com/Purva8852/GVSU-CIS641-Team-S/blob/master/artifacts/functional-models/ClassDiagram.pdf) | FR17-23 |
 
 
 
