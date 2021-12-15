@@ -4,10 +4,10 @@ Being away from home, in the land of strangers, a young college student can beco
 
 ## Team Members and Roles
 
-* [Hyeong Gyu Jang](https://github.com/hyeonggyujang/CIS641-HW2-Jang) - Back-end developer
-* [Srikar Pratap](https://github.com/SrikarPratap/CIS641-HW2-PRATAP) - AWS DevOps Engineer
-* [Sudarshan Venkatesh](https://github.com/sudsvenk/CIS641-HW2-VENKATESH) - Back-end developer
-* [Purva Tanmay Shah](https://github.com/Purva8852/CIS641-HW2-SHAH#cis641-hw2-shah) - Front-end developer / Document Designer
+* [Hyeong Gyu Jang](https://github.com/hyeonggyujang/CIS641-HW2-Jang) - Full-Stack Developer (Back-end and Front-end)
+* [Srikar Pratap](https://github.com/SrikarPratap/CIS641-HW2-PRATAP) - AWS DevOps Engineer / Front-end Developer
+* [Sudarshan Venkatesh](https://github.com/sudsvenk/CIS641-HW2-VENKATESH) - UI Developer
+* [Purva Tanmay Shah](https://github.com/Purva8852/CIS641-HW2-SHAH#cis641-hw2-shah) - Front-end Developer / Document Designer
 
 ## Documents
 1. [Meetings](https://github.com/Purva8852/GVSU-CIS641-Team-S/tree/master/meetings)
