@@ -14,7 +14,7 @@ Our team is building a cross-platform mobile application for a university, where
 - AWS Cloud Services
     - EC2
     - DynamoDB
-- Back-end Server Client Tech Spec TBD
+- Back-end Server Client Tech Spec - Flask Python
 - Google Map API (for address reference purpose)
 
 # Method/Approach
