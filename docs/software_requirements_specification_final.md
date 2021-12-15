@@ -22,41 +22,41 @@ Non-functional requirement section provides a user expectation and applies to wh
 ### Sign Up/User Registration:
 | ID | Requirement |
 | -------------| ---------- |
-| FR1 | Only GVSU staff, student or faculty member shall allow for new registration.|
-| FR2 | This shall include user personal details: Name, Email, Address and mandatory and Phone, Vehicle details are optional.|
-| FR3 | Register me button shall be included. When user clicks on it, a verification link shall be sent to user.|
-| FR4 | Sign up screen shall include login screen navigation.|
-| FR5 | After successfully registering, user shall be able to login immediately.|
+| FR7 | Only GVSU staff, student or faculty member shall allow for new registration.|
+| FR8 | This shall include user personal details: Name, Email, Address and mandatory and Phone, Vehicle details are optional.|
+| FR9 | Register me button shall be included. When user clicks on it, a verification link shall be sent to user.|
+| FR10 | Sign up screen shall include login screen navigation.|
+| FR11 | After successfully registering, user shall be able to login immediately.|
 
 ### Edit Profile
 | ID | Requirement |
 | -------------| ---------- |
-| FR1 | User shall have access to edit profile where he can modify/change address, vehicle details, password and phone number.|
-| FR2 | On clicking onto submit button, the new details shall get updated in database.|
-| FR3 | If password is changed, user shall come out of application and login again with new created password.|
-| FR4 | If user does not want to modify any details, this page shall include navigator to post screen/main screen.|
-| FR5 | User shall not have access to modify email address and name field.|
+| FR12 | User shall have access to edit profile where he can modify/change address, vehicle details, password and phone number.|
+| FR13 | On clicking onto submit button, the new details shall get updated in database.|
+| FR14 | If password is changed, user shall come out of application and login again with new created password.|
+| FR15 | If user does not want to modify any details, this page shall include navigator to post screen/main screen.|
+| FR16 | User shall not have access to modify email address and name field.|
 
 ### Post/Comment
 | ID | Requirement |
 | -------------|---------- |
-| FR1 | Post screen shall be main screen of application.|
-| FR2 | User shall have access to create new post from this screen.|
-| FR3 | Logged in user shall have access to see all the previous post and comment on any post.|
-| FR4 | If ride time for any post is less than current time, the post shall get delete automatically.|
-| FR5 | User shall have access to delete only his post.|
-| FR6 | Admin shall have access to delete all post if found irrelevant.|
-| FR7 |  While creating post, user shall have access to choose from rider or passenger, enter ride to and from location, and time of ride with available seats and phone being optional.|
+| FR17 | Post screen shall be main screen of application.|
+| FR18 | User shall have access to create new post from this screen.|
+| FR19 | Logged in user shall have access to see all the previous post and comment on any post.|
+| FR20 | If ride time for any post is less than current time, the post shall get delete automatically.|
+| FR21 | User shall have access to delete only his post.|
+| FR22 | Admin shall have access to delete all post if found irrelevant.|
+| FR23 |  While creating post, user shall have access to choose from rider or passenger, enter ride to and from location, and time of ride with available seats and phone being optional.|
 
 ### Operational Requirements:
 | ID | Requirement |
 | -------------| ---------- | 
-| FR1 | After successful login or registering, user shall have access to post screen (main board screen)|
-| FR2 | Any user shall be allowed to comment on any post.|
-| FR3 | After logout user shall have option to login again.|
-| FR4 | MyProfile screen shall include user details like Name, phone, address, vehicle details.|
-| FR5 | Once user has logged in, the application shall store his/her information for using it next time.|
-| FR6 | Logout screen shall have login screen button.|
+| FR24 | After successful login or registering, user shall have access to post screen (main board screen)|
+| FR25 | Any user shall be allowed to comment on any post.|
+| FR26 | After logout user shall have option to login again.|
+| FR27 | MyProfile screen shall include user details like Name, phone, address, vehicle details.|
+| FR28 | Once user has logged in, the application shall store his/her information for using it next time.|
+| FR29 | Logout screen shall have login screen button.|
     
 ## Non-Functional Requirements
 ### Performance:
@@ -72,40 +72,40 @@ Non-functional requirement section provides a user expectation and applies to wh
 ### Availability:
 | ID | Requirement |
 | -------------| ---------- |
-| FR1 | Application shall be up and running all the time 24*7 all the days.|
-| FR2 | Recent or only upcoming post shall be available for avoid storing large data on database.|
-| FR3 | Customer support shall be provided if user faces any issue accessing the application.|
-| FR4 | Temporary password sent to user shall be valid for 4 hours for successful login.|
-| FR5 | After successful login, users email address shall be stored in AsyncStorage.|
+| FR7 | Application shall be up and running all the time 24*7 all the days.|
+| FR8 | Recent or only upcoming post shall be available for avoid storing large data on database.|
+| FR9 | Customer support shall be provided if user faces any issue accessing the application.|
+| FR10 | Temporary password sent to user shall be valid for 4 hours for successful login.|
+| FR11 | After successful login, users email address shall be stored in AsyncStorage.|
 
 ### Usability:
 | ID | Requirement |
 | -------------| ---------- |
-| FR1 | Each application UI screen shall be user friendly and in easily understanble format or readable formate.|
-| FR2 | The user shall experience an aesthetic and minimal design.|
-| FR3 | The application shall consist of standard visual experience for all users.|
-| FR4 | The ride booking shall follow first in first out method.|
-| FR5 | Each application UI screen shall be user friendly and in easily understanble format or readable formate.|
+| FR12 | Each application UI screen shall be user friendly and in easily understanble format or readable formate.|
+| FR13 | The user shall experience an aesthetic and minimal design.|
+| FR14 | The application shall consist of standard visual experience for all users.|
+| FR15 | The ride booking shall follow first in first out method.|
+| FR16 | Each application UI screen shall be user friendly and in easily understanble format or readable formate.|
 
 ### Operational Requirement:
 | ID | Requirement |
 | -------------| ---------- |
-| FR1 | Application shall be installed or run on both operating system - Android and iOS.|
-| FR2 |The system front end UI shall be created using react-native.|
-| FR3 | System shall be build using expo CLI.|
-| FR4 | The backend logic shall be implemented using python flask framework.|
-| FR5 | Application shall run on device regardless of OS update or on changing mobile with new Operating system.|
-| FR6 | Application shall store all of its user and post/comment data in NoSQL format in DynamicDB of AWS.|
-| FR7 | Google maps shall be used for entering accurate location while posting a ride detail.|
-| FR8 | CI/CD pipeline shall be used to make application be available by testing and deploying latest updates.|
+| FR17 | Application shall be installed or run on both operating system - Android and iOS.|
+| FR18 |The system front end UI shall be created using react-native.|
+| FR19 | System shall be build using expo CLI.|
+| FR20 | The backend logic shall be implemented using python flask framework.|
+| FR21 | Application shall run on device regardless of OS update or on changing mobile with new Operating system.|
+| FR22 | Application shall store all of its user and post/comment data in NoSQL format in DynamicDB of AWS.|
+| FR23 | Google maps shall be used for entering accurate location while posting a ride detail.|
+| FR24 | CI/CD pipeline shall be used to make application be available by testing and deploying latest updates.|
 ### Security:
 | ID | Requirement |
 | -------------| ---------- |
-| FR1 | Customer personal data shall be stored in database in encrypted format.
-| FR2 | Unsuccessful login of user shall be recorded and audited.
-| FR3 | User data shall not be shared with any other party.|
-| FR4 | No user shall have access to delete any post unless they have created that post.|
-| FR5 | The source coding shall follow secure coding practices.|
+| FR25 | Customer personal data shall be stored in database in encrypted format.
+| FR26 | Unsuccessful login of user shall be recorded and audited.
+| FR27 | User data shall not be shared with any other party.|
+| FR28 | No user shall have access to delete any post unless they have created that post.|
+| FR29 | The source coding shall follow secure coding practices.|
 
 # Change Management Plan:
 
@@ -141,15 +141,18 @@ This section represents relationship between requirements and other project arti
 ## Use Case Diagram Traceability
 | Artifact ID | Artifact Name | Requirement ID |
 | :-------------: | :----------: | :----------: |
-|1| Sign In/Login | FR1, FR3, FR6|
-|1| Sign Up/Registration| FR1, FR2, FR3, FR4, FR5|
-|1| Edit Profile| FR1, FR2, FR3, FR5|
-|1| Post/Comment| FR2, FR3, FR4, FR5|
+|1| [Sign In/Login]((https://github.com/Purva8852/GVSU-CIS641-Team-S/blob/master/artifacts/functional-models/Use_Case_SignIn.pdf)) | FR1, FR3, FR6|
+|2| [Sign Up/Registration](https://github.com/Purva8852/GVSU-CIS641-Team-S/blob/master/artifacts/functional-models/Use_Case_Email_Verification_Registration.pdf) | FR1, FR2, FR3, FR4, FR5|
+|3|[Edit Profile](https://github.com/Purva8852/GVSU-CIS641-Team-S/blob/master/artifacts/functional-models/Use_Case_Edit_Profile.pdf)| FR1, FR2, FR3, FR5|
+|4| [Post/Comment]((https://github.com/Purva8852/GVSU-CIS641-Team-S/blob/master/artifacts/functional-models/Use_Case_Post_Comment_Details.pdf))| FR2, FR3, FR4, FR5|
 ## Class Diagram Traceability
 | Artifact Name | Requirement ID |
 | :-------------: |:----------: |
-| classPlayer | NFR3, FR5 |
-| … | … | … |
+| User | NFR3, FR5 |
+| Vehicle | NFR3, FR5 |
+| Ride | NFR3, FR5 |
+| Comment | NFR3, FR5 |
+| Group| |
 
 
 ## Activity Diagram Traceability
